@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.infos{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 3px;
+    text-shadow: 2px 2px 0 black;
+}
+
+body{
+    width: 98%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 27px;
+}
+p{
+    font-size:14px;
+}
+p, h1{
+    text-align: center;
+    color: white;  
+    text-shadow: 2px 2px 0 black; 
+}
+
+h2{
+    background-color: black;
+    width: 98%;
+    height: 3px;
+    margin-bottom: 7px;
+}
+
+.ok{
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 7px;
+    background-color: lemonchiffon;
+    
+}
+
+.msg{
+    border-radius: 5px;
+    width: 350px;
+    height: 120px;
+    background-color: lemonchiffon;
+}
+
+.botao{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.forma{
+    background-color: rgb(131, 66, 20);
+    max-width: 500px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 30px;
+}
